@@ -25,11 +25,6 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
   }
 };
 
-// invokeAction({action: "list"})
-// invokeAction({action: "get", id: "Z5sbDlS7pCzNsnAHLtDJd"})
-// invokeAction({action: "remove", id: "ivgObAgshGaVSwf8LjasT"})
-// invokeAction({action: "add", name: "Danylo", email: "test@gmail.com", phone:"12345"})
-
 program
     .option('-a, --action <type>', 'choose action')
     .option('-i, --id <type>', 'user id')
